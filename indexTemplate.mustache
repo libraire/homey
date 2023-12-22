@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{site}}</title>
+    <link rel="stylesheet" href="./static/css/home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>{{site}}</h1>
+      </header>
+
+      <main>
+          <ul class="horizontal-list">
+            <li><a href="#app">App</a></li>
+            <li><a href="#photo">Photo</a></li>
+            <li><a href="#article">Article</a></li>
+            <li><a href="#favorite">Favorite</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+
+        <div class="section-title" id="app">
+          <a href="https://github.com/libraire">
+            <img src="./static/images/github.png" alt="photo" />
+            App
+          </a>
+        </div>
+
+
+        <div class="app-section">
+            {{#apps}}
+            <div class="app">
+                <div class="icon">
+                <a href="{{url}}" class="icon-text">{{ firstChar }}</a>
+                </div>
+                <div class="section-right">
+                <a href="{{url}}" class="app-title">{{name}}</a>
+                <span style="white-space: pre-line; margin-top:5px">{{desc}}</span>
+                </div>
+            </div>
+            {{/apps}}
+        </div>
+
+        <div class="section-title" id="photo">
+          <a href="https://drinking.github.io/">
+            <img src="./static/images/ins.png" alt="photo" />
+            Photo
+          </a>
+        </div>
+
+        <div class="photo-section">
+            {{ #photos }}
+                <div class="photo">
+                    <img src="{{.}}" alt="photo" />
+                </div>
+            {{ /photos }}
+        </div>
+
+        <div class="section-title" id="article">
+          <a href="https://www.instagram.com/duyado/">
+            <img src="./static/images/blog.png" alt="photo" />
+            Article
+          </a>
+        </div>
+
+        {{ #articles }}
+        <div class="article-section">
+          <a
+            href="{{url}}"
+            class="article-container"
+          >
+            <div class="article-left">
+              <img src="{{img}}" alt="photo" />
+            </div>
+            <div class="article-right">
+              <div class="article-tag">{{tag}}</div>
+              <div class="article-title">{{name}}</div>
+              <div class="article-content"> {{ digest }}</div>
+            </div>
+          </a>
+        </div>
+        {{ /articles }}
+
+        <div class="section-title" id="favorite">
+          <a>
+            <img src="./static/images/television.png" alt="photo" />
+            Favorite
+          </a>
+        </div>
+
+        <div class="movie-section">
+         {{ #favorites }}
+            <div class="mmb"> <a href="{{url}}"> <img class="mmb-img" src="{{img}}" alt="photo" /> </a> </div>
+          {{ /favorites}}
+        </div>
+
+        <div class="section-title" id="about">
+          <a>
+            <img src="./static/images/user.png" alt="photo" />
+            About
+          </a>
+        </div>
+
+        <p style="display: flex; align-self: baseline; white-space: pre-line; margin-left: 40px;"> {{ about }}</p>
+      </main>
+
+      <footer style="margin-top: 60px;">
+        <p>&copy; 2023 Drinking's Web Site. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>

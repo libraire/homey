@@ -1,0 +1,73 @@
+{
+  "site": "Drinking's Workspace",
+  "apps": [
+    {
+      "name": "Woop",
+      "firstChar": "W",
+      "url": "https://woop.bytebitter.com",
+      "desc": "Web Text Processor. \n Get rid of complicating command."
+    },
+    {
+      "name": "Text Template",
+      "firstChar": "T",
+      "url": "https://tt.bytebitter.com",
+      "desc": "Draw text content into image to share. \n Mainly for XiaoHongShu."
+    },
+    {
+      "name": "Lensman",
+      "firstChar": "L",
+      "url": "https://lensman.bytebitter.com",
+      "desc": "Share your 12 favourite photos. \n Still under development..."
+    }
+  ],
+  "photos": [
+    "https://i.imgur.com/mOSAJN3l.jpg",
+    "https://i.imgur.com/ax4yYEbl.jpg",
+    "https://i.imgur.com/EpvCkK3l.jpg",
+    "https://i.imgur.com/g8SsA82l.jpg",
+    "https://i.imgur.com/FStfDT4l.jpg",
+    "https://i.imgur.com/THcWAnbl.jpg",
+    "https://i.imgur.com/qmkVRDDl.jpg",
+    "https://i.imgur.com/itGsn89l.jpg",
+    "https://i.imgur.com/xCQNhkdl.jpg"
+  ],
+  "articles": [
+    {
+        "name": "Taxi at dawn",
+        "tag":"Non-fiction",
+        "digest":"I saw the driver coming out of the back seat, turning around and reaching in, pulling out a blanket and folding it up.",
+        "url":"https://drinking.github.io/taxi-at-dawn",
+        "img":"https://i.imgur.com/eIUMzrYm.jpg"
+    },
+    {
+        "name": "Toyko 7 days Solo Travel Guide",
+        "tag":"Travel Toyko",
+        "digest":"It’s a busy and enriching trip in Toyko, all are fresh experiences for me as a foreigner. I’d like to share the itinerary with you for reference.",
+        "url":"https://drinking.github.io/tokyo-travel-guide",
+        "img":"https://i.imgur.com/ymNZTXNlm.jpg"
+    },
+    {
+        "name": "山海印象",
+        "tag":"Travel Taiwan",
+        "digest":"基隆港口的海有一股机油味，淡水码头的海充满了烟火气息，南部的海岸阳光明媚，花莲的海潮又汹涌澎湃，呼啸而来，退人三舍。",
+        "url":"https://drinking.github.io/taiwan-impression",
+        "img":"https://drinking.github.io/assets/img/2018/DJI_0491.JPG"
+    }
+  ],
+  "favorites": [
+    {
+        "url":"https://www.imdb.com/title/tt0138874/",
+        "img":"https://upload.wikimedia.org/wikipedia/en/6/68/Three_seasons_theatrical_poster_US.jpg"
+    },
+    {
+        "url":"https://open.spotify.com/album/1onb4mglf6wdpexinIb0Of?autoplay=true",
+        "img":"https://upload.wikimedia.org/wikipedia/zh/e/ef/%E4%B9%8B%E4%B9%8E%E8%80%85%E4%B9%9F.jpg"
+    },
+    {
+        "url":"https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
+        "img":"https://m.media-amazon.com/images/I/81opZaPAwbS._SL1500_.jpg"
+    }
+  ],
+  "about": "Thank you for visiting my page. You already know me if you scrolled here.\n My name is Drinking, a full stack software engineer and a work-life balancer additionally."
+
+}

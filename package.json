@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mustache": "^4.2.0"
+  },
+  "scripts": {
+    "build": "mustache dataView.json indexTemplate.mustache > html/index.html"
+  }
+}
