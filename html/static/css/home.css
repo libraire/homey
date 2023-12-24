@@ -104,8 +104,6 @@ li > a {
   width: 50%;
 }
 
-
-
 .icon {
   width: 60px;
   aspect-ratio: 1 / 1;
@@ -121,6 +119,8 @@ li > a {
   text-decoration: none;
   color: white;
   font-size: 180%;
+  width: 60px;
+  text-align: center;
 }
 
 /* Photo css */
@@ -245,9 +245,7 @@ li > a {
   color: black;
 }
 
-
 @media only screen and (max-width: 657px) {
-
   .app-section {
     flex-direction: column;
   }
@@ -255,9 +253,7 @@ li > a {
   .app {
     width: 100%;
   }
-  
 }
-
 
 @media only screen and (max-width: 425px) {
   .article-left {
@@ -285,5 +281,4 @@ li > a {
     width: 90px;
     height: 90px;
   }
-
 }
