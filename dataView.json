@@ -14,10 +14,10 @@
       "desc": "Draw text content into image to share. \n Mainly for XiaoHongShu."
     },
     {
-      "name": "Lensman",
-      "firstChar": "L",
-      "url": "https://lensman.bytebitter.com",
-      "desc": "Share your 12 favourite photos. \n Still under development..."
+      "name": "iMail",
+      "firstChar": "I",
+      "url": "https://imail.bytebitter.com",
+      "desc": "Innominate mail to send and receive once with a temporary code."
     },
     {
       "name": "Homey",
