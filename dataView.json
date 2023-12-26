@@ -4,19 +4,19 @@
     {
       "name": "Woop",
       "firstChar": "W",
-      "url": "https://woop.bytebitter.com",
+      "url": "https://woop.bytegush.com",
       "desc": "Web Text Processor. \n Get rid of complicating command."
     },
     {
       "name": "Text Template",
       "firstChar": "T",
-      "url": "https://tt.bytebitter.com",
+      "url": "https://tt.bytegush.com",
       "desc": "Draw text content into image to share. \n Mainly for XiaoHongShu."
     },
     {
       "name": "iMail",
       "firstChar": "I",
-      "url": "https://imail.bytebitter.com",
+      "url": "https://imail.bytegush.com",
       "desc": "Innominate mail to send and receive once with a temporary code."
     },
     {
