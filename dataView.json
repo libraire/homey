@@ -8,10 +8,10 @@
       "desc": "Web Text Processor. \n Get rid of complicating command."
     },
     {
-      "name": "Text Template",
-      "firstChar": "T",
-      "url": "https://tt.bytegush.com",
-      "desc": "Draw text content into image to share. \n Mainly for XiaoHongShu."
+      "name": "How to Say",
+      "firstChar": "H",
+      "url": "https://howtosay.one",
+      "desc": "English learning game. \n Guess word by its definition."
     },
     {
       "name": "iMail",
@@ -20,10 +20,22 @@
       "desc": "Innominate mail to send and receive once with a temporary code."
     },
     {
+      "name": "Text Slide",
+      "firstChar": "T",
+      "url": "https://tt.bytegush.com",
+      "desc": "Using makrdown like rules to draw text into slides."
+    },
+    {
       "name": "Homey",
       "firstChar": "H",
       "url": "https://github.com/libraire/homey/",
       "desc": "The source template of this site. \n Data-driven, easy to maintain."
+    },
+    {
+      "name": "Lens",
+      "firstChar": "L",
+      "url": "https://lens.bytegush.com",
+      "desc": "What you see, what you think, and what you take. \n 12 photos at lens."
     }
   ],
   "photos": [
@@ -62,8 +74,20 @@
   ],
   "favorites": [
     {
+        "url":"https://www.imdb.com/title/tt0117905/",
+        "img":"https://i.imgur.com/tdqiFGlm.png"
+    },
+    {
         "url":"https://www.imdb.com/title/tt0138874/",
         "img":"https://upload.wikimedia.org/wikipedia/en/6/68/Three_seasons_theatrical_poster_US.jpg"
+    },
+    {
+        "url":"https://www.imdb.com/title/tt0421715/",
+        "img":"https://upload.wikimedia.org/wikipedia/zh/7/7d/Curious_case_of_benjamin_button_ver3.jpg?20170401195630"
+    },
+    {
+        "url":"https://www.imdb.com/title/tt1187043/",
+        "img":"https://upload.wikimedia.org/wikipedia/en/d/df/3_idiots_poster.jpg"
     },
     {
         "url":"https://open.spotify.com/album/1onb4mglf6wdpexinIb0Of?autoplay=true",
@@ -74,6 +98,6 @@
         "img":"https://m.media-amazon.com/images/I/81opZaPAwbS._SL1500_.jpg"
     }
   ],
-  "about": "Thank you for visiting my page. You already know me if you scrolled here.\n My name is Drinking, a full stack software engineer and a work-life balancer additionally."
+  "about": "Thank you for visiting my page. If you've scrolled here, you probably already know me. I'm Drinking, a full-stack indie developer based in Shanghai. I'm passionate about creating innovative solutions and exploring the world of technology. Feel free to reach out and connect with me at bytegush@hotmail.com."
 
 }
